@@ -1,19 +1,19 @@
 ﻿using System.Collections.Generic;
 using Amazon.CDK;
 
-namespace Infrastructure.Stack
+namespace Infrastructure
 {
     sealed class Program
     {
         public static void Main(string[] args)
         {
-            var app = new Amazon.CDK.App();
-            new InfrastructureStack(app, $"{App.Name}InfraStack", new StackProps
+            var app = new App();
+            new Stack(app, $"{Config.AppName}InfraStack", new StackProps
             {
                 Env = new Environment
                 {
-                    Account = "",
-                    Region = "eu-west-1"
+                    Account = Config.AccountId,
+                    Region = Config.Region
                 },
                 Tags = new Dictionary<string, string>
                 {
@@ -22,7 +22,7 @@ namespace Infrastructure.Stack
                     {"Domain", "knowledge-sharing"},
                     {"Purpose", "Chapter Day"},
                     {"Environment", "test"},
-                    {"Name", $"{App.Name}"}
+                    {"Name", $"{Config.AppName}"}
 
                 }
             });

@@ -1,5 +1,5 @@
 {
-  "app": "dotnet run -p Infrastructure.csproj",
+  "app": "dotnet run -p infra/Infrastructure.csproj",
   "requireApproval": "never",
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",

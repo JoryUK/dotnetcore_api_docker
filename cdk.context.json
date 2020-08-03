@@ -53,5 +53,13 @@
         ]
       }
     ]
+  },
+  "hosted-zone:account=047710374887:domainName=sandbox.ecom1.photoconnector.net.:privateZone=false:region=eu=west-1": {
+    "Id": "/hostedzone/Z2PWRRWE1IK98D",
+    "Name": "sandbox.ecom1.photoconnector.net."
+  },
+  "hosted-zone:account=047710374887:domainName=sandbox.ecom1.photoconnector.net.:privateZone=false:region=eu-west-1": {
+    "Id": "/hostedzone/Z2PWRRWE1IK98D",
+    "Name": "sandbox.ecom1.photoconnector.net."
   }
 }
