@@ -12,7 +12,7 @@ namespace Infrastructure.Stack
             {
                 Env = new Environment
                 {
-                    Account = "MUST_ENTER_VALUE",
+                    Account = "",
                     Region = "eu-west-1"
                 },
                 Tags = new Dictionary<string, string>
