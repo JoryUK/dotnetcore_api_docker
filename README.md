@@ -1,5 +1,9 @@
 Run a dotnet core ECS Fargate docker task, provision all required infrastructure and deploy to AWS using CDK.
 
+# Config
+
+Must specify the acccount and route53 hosted zone domain name in the Config.cs
+
 # Api
 
 dot net core 3.1 project with docker support (runs on Linux container)
